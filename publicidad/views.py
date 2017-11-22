@@ -31,3 +31,11 @@ def surtidor(request):
 
 def bar(request):
 	return render(request, 'publicidad/baresYdiscotecas.html')
+
+def santo_tomas(request):
+	return render(request, 'publicidad/bodegas/Santo_Tomas.html')
+
+def bacilica_caacupe(request):
+	return render(request, 'publicidad/santuarios/bacilica_caacupe.html')
+
+

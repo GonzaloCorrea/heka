@@ -1,0 +1,95 @@
+{% extends "base/base.html" %}
+{% load staticfiles %}
+{% block banner %}
+{% endblock banner %}
+{% block welcome %}
+{% endblock welcome %}
+{% block properties %}
+	
+
+				<div class="clearfix"></div>
+			
+				<div class="w3agile properties">   
+					<div class="properties-img properties-img-single">
+						<img src=" {% static 'images/3.jpg' %}" alt="">
+						<div class="view-caption">
+							<h4><span class="glyphicon glyphicon-map-marker"></span> Bacilica de Caacupe </h4>  
+						</div> 
+					</div>
+					<div class="w3ls-details">   
+						<h4>Descripcion</h4> 
+						<p class="agile-text">........... . </p>
+						<div class="w3ls-text">
+							<h4>Horarios</h4>  
+							<p><b>Lunes a Domingo :</b>  </p>
+							<p><b>... :</b> ... </p>
+							<p><b>... :</b> ... </p>
+							
+						</div>
+					</div>
+					<div class="w3ls-features">   
+						<h3 class="w3ls-title">Caracteristicas</h3> 
+						<ul> 
+							<li><span class="glyphicon glyphicon-ok"> </span> .... </li>
+							<li><span class="glyphicon glyphicon-ok"> </span> ...</li>
+							<li><span class="glyphicon glyphicon-ok"> </span> ...</li>
+							<li><span class="glyphicon glyphicon-ok"> </span> ...</li>
+							<li><span class="glyphicon glyphicon-ok"> </span> ...</li>
+							<li><span class="glyphicon glyphicon-ok"> </span> ...</li>
+							<li><span class="glyphicon glyphicon-ok"> </span> ...</li>
+						</ul>
+					</div>
+					<div class="w3ls-related">   
+						<h3 class="w3ls-title">Eventos</h3>
+						<div id="kb" class="carousel kb_elastic animate_text kb_wrapper" data-ride="carousel" data-interval="6000" data-pause="hover">
+							<!-- Wrapper-for-Slides -->
+							<div class="carousel-inner" role="listbox"> 
+								<!-- First-Slide -->
+								<div class="item active">
+									<div class="properties-img">
+										<img src="{% static 'images/3.jpg' %}" alt="">
+										<div class="view-caption">
+											<h4><span class="glyphicon glyphicon-map-marker"></span> ... </h4>  
+										</div>
+										
+									</div>
+								</div> 
+								<!-- Second-Slide -->
+								<div class="item">  
+									<div class="properties-img">
+										<img src="{% static 'images/1.jpg' %}" alt="">
+										<div class="view-caption">
+											<h4><span class="glyphicon glyphicon-map-marker"></span> ... </h4>  
+										</div>
+										
+									</div>
+								</div> 
+								<!-- Third-Slide -->
+								<div class="item">
+									<div class="properties-img">
+										<img src="{% static 'images/2.jpg' %}" alt="">
+										<div class="view-caption">
+											<h4><span class="glyphicon glyphicon-map-marker"></span> ... </h4>  
+										</div>
+										
+									</div>
+								</div> 
+							</div> 
+							<!-- Left-Button -->
+							<a class="left carousel-control kb_control_left" href="#kb" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a> 
+							<!-- Right-Button -->
+							<a class="right carousel-control kb_control_right" href="#kb" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a> 
+						</div>
+						<script src="js/custom.js"></script> 
+					</div>
+					
+				</div>
+
+			
+{% endblock properties %}
